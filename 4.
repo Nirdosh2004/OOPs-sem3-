@@ -1,0 +1,22 @@
+// 4. WAP to compare two strings
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    string one , two;
+    cout<<"Enter both inputs : ";
+    cin>>one>>two;
+    
+    int i=0;
+   for(i=0;one[i]==two[i] && one[i] != '\0' && two[i] != '\0' ;i++);
+        if(one[i] - two[i] == 0){
+            cout<<"Equal";
+        }
+        else {
+            cout<<"Not equal";
+        }
+    
+    
+    return 0;
+}
