@@ -1,0 +1,28 @@
+// 3. WAP to check if a number or string is Palindrome or not
+
+#include<iostream>
+using namespace std;
+
+bool ans(string input ){
+     for(int i=0;i<input.length()/2;i++){
+        if(input[i] != input[input.length()-i-1]){
+            return false;
+        }
+    }
+    return true;
+}
+
+int main(){
+    string input;
+    cout<<"Enter input : ";
+    cin>>input;
+   
+   if(ans(input)){
+       cout<<"Palindrome";
+   }
+   else{
+       cout<<"Not palindrom";
+   }
+    
+    return 0;
+}
