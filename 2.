@@ -1,0 +1,18 @@
+// 2. WAP to show different data types used in C++
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a = 4;
+    float b = 3.4;
+    char c = 'c';
+    double d = 3.145743874;
+    bool ab = false;
+    
+    string e = "hello";
+    long f = 12345678901;
+    cout<<a<<endl<<b<<endl<<c<<endl<<d<<endl<<ab<<endl<<e<<endl<<f;
+    
+    return 0;
+}
