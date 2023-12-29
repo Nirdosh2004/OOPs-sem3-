@@ -1,0 +1,15 @@
+1. Differentiate between C &amp; C++. Discuss OOP features.
+
+C :
+-> C is a structured language 
+-> focuses on procedures and fuctions
+-> data and behaviour are typically separate 
+-> limited support for data hiding and abstraction 
+-> ex- c , pascal , etc . 
+
+C++ :
+-> C++ is a object oriented language 
+-> focuses on classes and objects 
+-> incapsulates data and behaviour within objects 
+-> supports data and behaviour within objects 
+-> ex - C++ , Java , Python etc 
