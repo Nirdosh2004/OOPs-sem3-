@@ -1,0 +1,20 @@
+// 10. WAP to display the concept of Class and Object
+
+#include<iostream>
+using namespace std;
+
+class myClass{
+    public:
+    int x , y;
+ int add(int x , int y){
+     return x+ y;
+ }
+};
+
+int main(){
+  
+  myClass object;
+  cout<<object.add(3,4);
+    
+    return 0;
+}
