@@ -1,0 +1,25 @@
+// 7. Write an algorithm and its program to check whether a given number isprime or not. Draw
+// its flowchart as well.
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int number;
+    cout<<"Enter value to check : ";
+    cin>>number;
+    
+    if(number == 1 || number == 2 || number == 3){
+        cout<<"Prime number ";
+    }
+    else if(number%2==0 || number%3==0){
+        cout<<"Not prime number ";
+    }
+    else{
+        cout<<" prime number ";
+    }
+    
+    
+    
+    return 0;
+}
