@@ -1,0 +1,30 @@
+// 5. WAP to illustrate concept of one, two and multidimensional array 
+
+// two dimensional array ( 2D array );
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int row , column ;
+    cout<<"Enter row and column of array : ";
+    cin>>row>>column;
+    
+    int twoDimensionalArray[row][column];
+    cout<<"Enter elements in two dimensional array : \n";
+    for(int i=0;i<row;i++){
+        for(int j=0;j<column;j++){
+            cin>>twoDimensionalArray[i][j];
+        }
+    }
+    cout<<"Elements you entered in two dimensional array : \n";
+    for(int i=0;i<row;i++){
+        for(int j=0;j<column;j++){
+           cout<<twoDimensionalArray[i][j]<<"|    |";
+        }
+        cout<<endl;
+    }
+    
+    
+    return 0;
+}
