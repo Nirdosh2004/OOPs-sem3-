@@ -1,0 +1,26 @@
+// 5. WAP to illustrate concept of one, two and multidimensional array
+
+#include<iostream>
+using namespace std;
+
+// one dimensional array (1D array);
+
+int main(){
+    
+    int size;
+    cout<<"Enter size of array : ";
+    cin>>size;
+    
+    int oneDimensionalArray[size];
+    cout<<"Enter elements for one dimensional array : \n";
+    for(int i=0;i<size;i++){
+        cin>>oneDimensionalArray[i];
+    }
+    
+    cout<<"One dimensional array : ";
+     for(int i=0;i<size;i++){
+        cout<<oneDimensionalArray[i]<<"|   |";
+    }
+    
+    return 0;
+}
