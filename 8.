@@ -1,0 +1,14 @@
+// 8. WAP to find sum of series 1+2+3+4 n terms 
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cout<<"Enter value of n(in positive) : ";
+    cin>>n;
+    int sum = n*(n+1)/2;
+    cout<<"sum of series from 1 to "<<n<<"is :" <<sum;
+    
+    return 0;
+}
