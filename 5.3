@@ -1,0 +1,36 @@
+// 5. WAP to illustrate concept of one, two and multidimensional array 
+
+//multidimensional  array ;
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int row , col , height;
+    cout<<"Enter row , column and height : ";
+    cin>>row>>col>>height;
+    
+    int multidimensionalArray[row][col][height];
+    cout<<"Enter elements of multidimensionalArray : \n";
+    for(int i=0;i<row;i++){
+        for(int j=0;j<col;j++){
+            for(int k=0;k<height;k++){
+                cin>>multidimensionalArray[i][j][k];
+            }
+        }
+    }
+    cout<<"Elements in multidimensionalArray in matrix format : \n";
+     for(int i=0;i<row;i++){
+        for(int j=0;j<col;j++){
+            for(int k=0;k<height;k++){
+               cout<<multidimensionalArray[i][j][k]<<"|     |";
+            }
+            cout<<endl;
+        }
+        cout<<endl;
+    }
+    
+    
+    return 0;
+}
+
