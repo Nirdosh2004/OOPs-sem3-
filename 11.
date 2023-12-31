@@ -1,0 +1,36 @@
+// 11. WAP to display method/ function declared 16
+// a. inside class
+// b. outside class
+// c. with parameters
+
+
+#include<iostream>
+using namespace std;
+
+class base{
+    public:
+    
+    int parameters(int a , int b){
+        
+        return a + b;
+    }
+    void function(){
+        cout<<"Called inside function"<<endl;
+    }
+    void outsideFunction();
+};
+
+void base :: outsideFunction(){
+    cout<<"Outside function";
+}
+
+int main(){
+    base object;
+    int result =  object.parameters(4,2);
+    cout<<result<<endl;
+    object.function();
+    object.outsideFunction();
+    
+    
+    return 0;
+}
