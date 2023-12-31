@@ -1,0 +1,25 @@
+// 13. WAP to illustrate constructor parameters
+
+#include<iostream>
+using namespace std;
+
+class factorial{
+    public:
+    int n , ans = 1;
+    factorial(){
+        cout<<"Enter n : ";
+        cin>>n;
+        for(int i=1;i<=n;i++){
+            ans *= i;
+        }
+    }
+    void display(){
+        cout<<"Answer is : "<<ans;
+    }
+};
+
+int main(){
+    factorial obj;
+    obj.display();
+    return 0;
+}
